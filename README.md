@@ -1,7 +1,7 @@
 # brand_name_vote
 
-A new Flutter application.
-
+![](https://github.com/ElmouradiAmine/brand-name-votes/blob/master/lib/Capture%20d’écran%202019-06-05%20à%2012.46.46.png)
+![](https://github.com/ElmouradiAmine/brand-name-votes/blob/master/lib/Capture%20d’écran%202019-06-05%20à%2012.46.38.png)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
