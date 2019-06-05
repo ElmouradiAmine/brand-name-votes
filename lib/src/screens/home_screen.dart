@@ -44,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget _buildList(List<DocumentSnapshot> snapshot) {
+    snapshot.sort((a, b) => a.data["votes"] < b.data["votes"] ? 1 : 0);
     return ListView(
       padding: EdgeInsets.only(top: 20.0),
       children: snapshot.map((map) => _buildListItem(map)).toList(),
@@ -90,6 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     });
                   }
 
+                  _controller.clear();
                   Navigator.of(context).pop();
                 },
               ),
